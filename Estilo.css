@@ -282,7 +282,7 @@ footer {
 
 /* Contenedor de la imagen */
 .image-container {
-    flex: 0 0 200px; /* Ancho fijo para la imagen (puedes ajustar este valor) */
+    flex: 0 0 250px; /* Ancho fijo para la imagen (puedes ajustar este valor) */
 }
 
 .image-container img {
