@@ -222,3 +222,37 @@ footer {
 .social-icons a:hover {
     color: #007BFF; /* Color al pasar el mouse */
 }
+
+
+
+/* Estilos para la sección de "Mi Vecino Queso" */
+#mi-vecino-queso {
+    text-align: center; /* Centra el texto */
+    margin: 40px 0; /* Margen superior e inferior */
+}
+
+/* Contenedor de la imagen */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    width: 80%; /* Ajusta el ancho */
+    max-width: 600px; /* Ancho máximo del contenedor */
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semitransparente */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Oculta el desbordamiento */
+}
+
+.image-container img {
+    width: 100%; /* La imagen ocupa todo el contenedor */
+    height: auto; /* Mantiene la relación de aspecto */
+    object-fit: cover; /* Ajusta la imagen sin deformarla */
+    transition: transform 0.3s; /* Transición suave para el efecto */
+}
+
+/* Efecto al pasar el mouse sobre la imagen */
+.image-container img:hover {
+    transform: scale(1.05); /* Aumenta el tamaño al pasar el mouse */
+}
