@@ -222,3 +222,33 @@ footer {
 .social-icons a:hover {
     color: #007BFF; /* Color al pasar el mouse */
 }
+
+
+
+
+
+
+/* Estilo para el contenedor del contenido */
+.content-container {
+    display: flex; /* Usar flexbox para colocar el texto y la imagen en fila */
+    align-items: center; /* Centra verticalmente el contenido */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+/* Contenedor de texto */
+.text-container {
+    flex: 1; /* Ocupa el espacio restante */
+    margin-right: 20px; /* Espacio entre el texto y la imagen */
+}
+
+/* Contenedor de la imagen */
+.image-container {
+    flex: 0 0 300px; /* Ancho fijo para la imagen */
+}
+
+.image-container img {
+    width: 100%; /* La imagen ocupa todo el contenedor */
+    height: auto; /* Mantiene la relación de aspecto */
+    border-radius: 10px; /* Bordes redondeados para la imagen */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+}
