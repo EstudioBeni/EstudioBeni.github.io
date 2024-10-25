@@ -61,6 +61,55 @@ nav a {
     transition: color 0.3s; /* Transición suave para el color */
 }
 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para el título con el ícono */
+h3 {
+    font-size: 2rem;
+    color: #4CAF50;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+}
+
+h3 i {
+    margin-right: 10px;
+    color: #4CAF50;
+}
+
+/* Estilos para el contenedor de la imagen */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    width: 80%; /* Ajusta el ancho */
+    height: 300px; /* Ajusta la altura */
+    background-color: #e8f5e9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px solid #4CAF50;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
 nav a:hover {
     color: #0056b3; /* Color al pasar el mouse */
 }
