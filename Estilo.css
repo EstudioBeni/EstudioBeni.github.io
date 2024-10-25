@@ -250,17 +250,4 @@ footer {
 
 
 
-/* Contenedor de la imagen */
-.image-container {
-    display: flex; /* Usar flexbox para centrar la imagen */
-    justify-content: center; /* Centra horizontalmente */
-    margin: 20px 0; /* Margen superior e inferior para separación */
-}
-
-.image-container img {
-    max-width: 700px; /* Ancho máximo de la imagen */
-    width: 100%; /* La imagen ocupa hasta el 100% del contenedor (ajusta con max-width) */
-    height: auto; /* Mantiene la relación de aspecto */
-    border-radius: 10px; /* Bordes redondeados */
-}
 
