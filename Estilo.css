@@ -258,7 +258,7 @@ footer {
 }
 
 .image-container img {
-    max-width: 500px; /* Ancho máximo de la imagen */
+    max-width: 700px; /* Ancho máximo de la imagen */
     width: 100%; /* La imagen ocupa hasta el 100% del contenedor (ajusta con max-width) */
     height: auto; /* Mantiene la relación de aspecto */
     border-radius: 10px; /* Bordes redondeados */
