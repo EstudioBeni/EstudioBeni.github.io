@@ -275,45 +275,17 @@ footer {
 
 
 
-/* Contenedor principal para la sección */
-#mi-vecino-queso {
-    margin: 20px 0; /* Espaciado superior e inferior */
-}
-
-/* Estilo para el contenedor del contenido */
-.content-container {
-    display: flex; /* Usar flexbox para alinear el texto y la imagen en fila */
-    align-items: flex-start; /* Alinea el contenido al inicio (parte superior) */
-}
-
-/* Contenedor de texto */
-.text-container {
-    flex: 1; /* Ocupa el espacio restante */
-    margin-right: 20px; /* Espacio entre el texto y la imagen */
-}
-
 /* Contenedor de la imagen */
 .image-container {
-    flex: 0 0 300px; /* Ancho fijo para la imagen (puedes ajustar este valor) */
-    text-align: left; /* Asegura que el contenido esté alineado a la izquierda */
+    display: flex; /* Usar flexbox para centrar la imagen */
+    justify-content: center; /* Centra horizontalmente */
+    margin: 20px 0; /* Margen superior e inferior para separación */
 }
 
 .image-container img {
-    width: 100%; /* La imagen ocupa todo el contenedor */
+    max-width: 300px; /* Ancho máximo de la imagen */
+    width: 100%; /* La imagen ocupa hasta el 100% del contenedor (ajusta con max-width) */
     height: auto; /* Mantiene la relación de aspecto */
-    border-radius: 10px; /* Bordes redondeados para la imagen */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+    border-radius: 10px; /* Bordes redondeados */
 }
 
-/* Media query para pantallas pequeñas */
-@media (max-width: 768px) {
-    .content-container {
-        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
-        align-items: flex-start; /* Alinea los elementos a la izquierda */
-    }
-
-    .text-container {
-        margin-right: 0; /* Elimina el margen derecho */
-        margin-bottom: 20px; /* Espacio inferior entre texto y imagen */
-    }
-}
