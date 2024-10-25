@@ -228,11 +228,15 @@ footer {
 
 
 
+/* Contenedor principal para la sección */
+#el-perro-y-la-garza {
+    margin: 20px 0; /* Espaciado superior e inferior */
+}
+
 /* Estilo para el contenedor del contenido */
 .content-container {
-    display: flex; /* Usar flexbox para colocar el texto y la imagen en fila */
+    display: flex; /* Usar flexbox para alinear el texto y la imagen en fila */
     align-items: center; /* Centra verticalmente el contenido */
-    margin-top: 20px; /* Espaciado superior */
 }
 
 /* Contenedor de texto */
@@ -243,7 +247,7 @@ footer {
 
 /* Contenedor de la imagen */
 .image-container {
-    flex: 0 0 300px; /* Ancho fijo para la imagen */
+    flex: 0 0 300px; /* Ancho fijo para la imagen (puedes ajustar este valor) */
 }
 
 .image-container img {
