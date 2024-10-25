@@ -256,3 +256,51 @@ footer {
     border-radius: 10px; /* Bordes redondeados para la imagen */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
 }
+
+
+
+
+
+
+
+/* Contenedor principal para la sección */
+#mi-vecino-queso {
+    margin: 20px 0; /* Espaciado superior e inferior */
+}
+
+/* Estilo para el contenedor del contenido */
+.content-container {
+    display: flex; /* Usar flexbox para alinear el texto y la imagen en fila */
+    align-items: center; /* Centra verticalmente el contenido */
+}
+
+/* Contenedor de texto */
+.text-container {
+    flex: 1; /* Ocupa el espacio restante */
+    margin-right: 20px; /* Espacio entre el texto y la imagen */
+}
+
+/* Contenedor de la imagen */
+.image-container {
+    flex: 0 0 300px; /* Ancho fijo para la imagen (puedes ajustar este valor) */
+}
+
+.image-container img {
+    width: 100%; /* La imagen ocupa todo el contenedor */
+    height: auto; /* Mantiene la relación de aspecto */
+    border-radius: 10px; /* Bordes redondeados para la imagen */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 768px) {
+    .content-container {
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        align-items: flex-start; /* Alinea los elementos a la izquierda */
+    }
+
+    .text-container {
+        margin-right: 0; /* Elimina el margen derecho */
+        margin-bottom: 20px; /* Espacio inferior entre texto y imagen */
+    }
+}
