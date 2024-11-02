@@ -274,5 +274,14 @@ footer {
 
 
 
+.video-container {
+    text-align: center; /* Centra el contenido */
+    margin: 20px 0; /* Espacio alrededor del video */
+}
 
+iframe {
+    max-width: 100%; /* Asegura que no exceda el contenedor */
+    height: auto; /* Mantiene la proporción */
+    border: none; /* Sin borde */
+}
 
