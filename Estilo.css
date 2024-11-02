@@ -15,10 +15,6 @@ body {
     margin: 20px 0;
 }
 
-.video-container iframe {
-    max-width: 90%; /* Aumenta el ancho máximo del video */
-    height: 500px; /* Establece una altura fija para el video */
-}
 
 
 
