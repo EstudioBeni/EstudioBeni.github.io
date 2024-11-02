@@ -273,6 +273,13 @@ footer {
 }
 
 
+.map-container {
+    display: flex; /* Usar flexbox para centrar */
+    justify-content: center; /* Centra horizontalmente */
+    margin: 20px 0; /* Espacio alrededor del mapa */
+}
+
+
 
 
 
