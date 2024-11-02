@@ -7,8 +7,20 @@ body {
     margin: 0; /* Elimina el margen predeterminado */
     font-family: 'Arial', sans-serif; /* Fuente utilizada */
     color: #333; /* Color del texto */
-
 }
+
+.video-container {
+    display: flex; /* Usar flexbox para centrar el video */
+    justify-content: center; /* Centra el video horizontalmente */
+    margin: 20px 0; /* Espacio alrededor del video */
+}
+
+.video-container iframe {
+    max-width: 80%; /* Ajusta el ancho máximo del video al 80% */
+    height: auto; /* Mantiene la proporción del video */
+}
+
+
 
 /* Animación del Logo */
 @keyframes slideIn {
