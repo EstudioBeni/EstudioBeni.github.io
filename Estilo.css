@@ -10,14 +10,14 @@ body {
 }
 
 .video-container {
-    display: flex; /* Usar flexbox para centrar el video */
-    justify-content: center; /* Centra el video horizontalmente */
-    margin: 20px 0; /* Espacio alrededor del video */
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
 }
 
 .video-container iframe {
-    max-width: 80%; /* Ajusta el ancho máximo del video al 80% */
-    height: auto; /* Mantiene la proporción del video */
+    max-width: 80%; /* Ajusta al 80% de la pantalla */
+    height: auto; /* Mantiene la proporción */
 }
 
 
