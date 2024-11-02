@@ -1,6 +1,6 @@
 /* Estilos Generales */
 body {
-    background-image: url('bahia_malaga.jpg'); /* Cambia esto por la ruta de tu imagen */
+    background-image: url('fondo.jpg'); /* Cambia esto por la ruta de tu imagen */
     background-size: cover; /* Asegúrate de que la imagen cubra toda la pantalla */
     background-position: center; /* Centra la imagen */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
