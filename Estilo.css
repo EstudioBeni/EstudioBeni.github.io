@@ -250,4 +250,20 @@ footer {
 
 
 
+.welcome-image-container {
+    display: flex;
+    justify-content: center; /* Centra la imagen horizontalmente */
+    margin: 20px 0; /* Espacio alrededor de la imagen */
+}
+
+.welcome-image-container img {
+    max-width: 100%; /* La imagen ocupa el ancho disponible */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px; /* Bordes redondeados para dar un mejor aspecto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+}
+
+
+
+
 
